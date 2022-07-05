@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'musicdisc/css/styles.css' %}">
+    <script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+    <title>Music Discuss</title>
+  </head>
+  <body>
+    <nav class="navbar mynav">
+      <div class="container">
+        <a class="navbar-brand mynav" href="{% url 'home'%}">Music Disco</a>
+
+        <ul class="nav navbar-nav b=navbar-right">
+          {% if user.is_authenticated %}
+              <li><a href="#">Posts</a></li>
+              <li><a href="#">Groups</a></li>
+              <li><a href="#">create group</a></li>
+              <li><a href="{% url 'account:logout'%}">logout</a></li>
+          {% else %}
+            <li><a href="{% url 'account:login' %}">Login</a></li>
+            <li><a href="{% url 'account:signup' %}">Signup</a></li>
+          {% endif %}
+        </ul>
+      </div>
+    </nav>
+    <div class="container mycontent">
+      {% block content %}
+
+      {% endblock content %}
+    </div>
+  </body>
+</html>
