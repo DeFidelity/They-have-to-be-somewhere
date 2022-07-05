@@ -1,0 +1,89 @@
+body {
+    padding: 10px;
+    font-family: calibri;
+}
+
+ul{
+	list-style-type: none;
+	Height: 50px;
+	background-color: darkblue;
+	background: 100%;
+	line-height: 50px;
+	padding: 0;
+    margin:	0;
+	line-height:50px;
+	
+}
+h1{
+    padding-left: 20px;
+	font-variant: small-caps;
+}	
+ul li {
+    float: left;
+    width:14.285%;
+	 background-color: darkblue;
+}
+ul li a {
+    display: block;
+    height: 50px;
+    color: white;
+    text-decoration: none;
+    padding: 0 10px o 10px;
+    color: white;
+	
+}
+ul li a:hover {
+    background-color: #888;
+}
+/*a:link a:visited{
+   
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}*/
+/*a:hover{
+    text-decoration: none;
+}*/
+
+ li{
+     text-align: center;
+     height: 20px;
+    background-color: darkblue;
+	
+    /** padding: 20px;**/
+     display:inline;
+    float:left; 
+}
+#leave ul li {
+	background-color: black;
+	color: white;
+	display: inline-block;
+	border: 30px solid white;
+	margin-top: 20px;
+	height:50px;
+	box-sizing: border_box;
+	display: none;
+}
+
+/**div to come
+font-family: calibri
+font-style: 
+use display: none to coment things out easily
+
+
+/* a:link,  a:visited{
+    
+    color:white;
+    display:block;
+    box-sizing: boder-box;
+    text-align:center;
+    padding:20px 0; 
+}
+
+/*a {
+    text-decoration: none;
+}*/
+/* a:hover {
+    background-color:lightblue;
+}/*
+
