@@ -1,0 +1,128 @@
+html, body {
+    margin: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    font-family
+    :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(../img/Stars.jpg);
+}
+
+
+.parent {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    width: 300px;
+    padding: 50px;
+    margin: 50px;
+    height:max-content;
+    background: #d5d2d2; 
+}
+
+h2 {
+    font-size: 60px;
+    text-align: center;
+    color: #5d5959;
+}
+
+p {
+    font-size: 30px;
+    text-align: start;
+    color: #5d5959;
+}
+
+
+input {
+    border: none;
+    border-radius: 150px;
+    padding: 15px;
+    background-color: #e8e8e8;
+    font-size: medium;
+    font-weight: bold;
+    max-width: 200px;
+    transition: all 0.4s;
+}
+   
+
+button {
+    width: fit-content;
+    cursor: pointer;
+    color: #d5d2d2;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 2em;
+    background: #5d5959;
+    border: 1px solid #ab9b9b;
+    transition: all 0.1s;
+}
+
+button:hover {
+    border: 2px solid rgb(41, 42, 42);
+}
+
+
+.container {
+    min-height: 100vh;
+}
+
+
+.pop-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.popup {
+    top: 5vh;
+    left: 5vw;
+    display:none;
+    position:fixed;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+    width: 90vw;
+    height: 90vh;
+    border-radius:900px;
+    background-color: #4b3f3f;
+    background-image: url(../img/moon.jpg);
+    overflow: scroll;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    margin: 10px
+}
+
+.button-container {
+    margin-top: 5px;
+    display: flex;
+    width: 50%;
+    justify-content:center;
+    margin: 50px;
+}
+
+.label {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight:bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+h3 {
+    color: #4b3f3f;;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+

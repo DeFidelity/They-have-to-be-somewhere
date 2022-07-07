@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-compatible" cotent="ie=edge">
+        <title>Interplanetary Transport System Interface</title>
+        <link rel="stylesheet" href="styles.css"/> 
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">        
+</head>
+<body>
+</body>
+
+
+    <div class="button-container">
+        <button onclick="registerData()">Astronaut Input Dashboard</button>
+    </div>
+
+
+    <div id="popup" class="popup">
+        <h3 class="text">Ships Parameters</h3>
+        <div class="pop-container">
+            <div class="input">
+                <br>
+                <label class="label">Fuel level</label>  
+                <input type="number" id="fuel-inp" value=""> 
+            </div>
+
+            <div class="input">
+                <br>
+                <label class="label">Throttle</label> 
+                <input type="number" id="throttle-inp" value=""> 
+            </div>
+
+            <div class="input">
+                <br>
+                <label class="label">Speed</label>
+                <input type="number" id="speed-inp" value=""> 
+            </div>
+
+            <div class="input">
+                <br>
+                <label class="label">Acceleration (G-force)</label> 
+                <input type="number" id="acceleration-inp" value=""> 
+            </div>
+        </div>
+<br>
+<br>
+        <h3 class="text">Ships Evironment</h3>
+        <div class="pop-container">
+            <div class="input">
+                <label class="label">Gravity Level</label>
+                <input type="number" id="gravity-inp" value=""> 
+            </div>
+
+            <div class="input">
+                <label class="label">Distance Traveled</label>
+                <input type="number" id="distance-inp" value=""> 
+            </div>
+
+            <div class="input">
+                <label class="label">Current Atmosphere</label>
+                <input type="number" id="atmosphere-inp" value=""> 
+            </div>
+        </div>
+<br>
+        <h3 class="text">Supplies</h3>
+        <div class="pop-container">
+            <div class="input">
+                <label class="label">Food</label>
+                <input type="number" id="food-inp" value=""> 
+            </div>
+
+            <div class="input">
+                <label class="label">Water</label>
+                <input type="number" id="water-inp" value="">
+            </div>
+        </div>
+ <br>
+        <h3 class="text">Metrics</h3>
+        <div class="pop-container">
+            <div class="input">
+                <label class="label">Gravity Coverter</label>
+                <input type="number" id="gc-inp" value="">
+            </div>
+
+            <div class="input">
+                <label class="label">Mars miles to earth miles converter</label>
+                <input type="number" id="mars-inp" value="">
+            </div>
+        </div>
+    <div>
+    <br>
+        <button onclick="displayData()">Display Data</button> 
+    </div>
+</div>
+
+
+<div class="parent">
+    <div class="box">
+        <h2 id="fuel">00</h2> 
+        <p>Fuel</p>
+    </div>
+
+    <div class="box">
+        <h2 id="throttle">00</h2> 
+        <p>Throttle</p>
+    </div>
+
+    <div class="box">
+        <h2 id="speed">00</h2>
+        <p>Speed</p>
+    </div>
+
+    <div class="box">
+        <h2 id="acceleration">00</h2>
+        <p>Acceleration (G-force)</p>
+    </div>
+
+    <div class="box">
+        <h2 id="gravity">00</h2>
+        <p>Gravity</p>
+    </div>
+
+    <div class="box">
+        <h2 id="distance">00</h2>
+        <p>Distance Traveled</p>
+    </div>
+
+    <div class="box">
+        <h2 id="atmosphere">00</h2> 
+        <p>Atmosphere</p>
+    </div>
+    
+    <div class="box">
+        <h2 id="food">00</h2> 
+        <p>Food</p>
+    </div>
+
+    <div class="box">
+        <h2 id="water">00</h2> 
+        <p>Water</p>
+    </div>
+
+    <div class="box">
+        <h2 id="gc">00</h2> 
+        <p>Gravity Converter</p>
+    </div>
+
+    <div class="box">
+        <h2 id="mars">00</h2> 
+        <p>Mars miles to earth miles converter</p>
+    </div>
+
+</div>
+    <script src="scripts.js"></script> 
+</html>
