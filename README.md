@@ -2,3 +2,7 @@
 
 ### Sources
 These are codes from myself and learning bases that are too small to be named a project, they're awesomea and I would'nt like to loose them, so I aggreed to creating a repo for them.
+
+### Languages
+
+This cuts through series of languages, frameworks and tools as they're mostly of trials
